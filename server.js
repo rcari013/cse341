@@ -10,7 +10,7 @@ app.use(express.json());
 
 // ✅ Root route
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("First CSE341 project API by Romel Carino");
 });
 
 app.use("/contacts", contactsRoutes);
