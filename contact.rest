@@ -1,0 +1,13 @@
+### Local - Get all contacts
+GET http://localhost:3000/contacts
+Accept: application/json
+
+
+### Render - Get all contacts
+GET https://cse-341-project1-romel-q15q.onrender.com/contacts
+Accept: application/json
+
+
+### Local - Get contact by ID
+GET http://localhost:3000/contacts/65a123456789abcdef123456
+Accept: application/json
