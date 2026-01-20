@@ -2,12 +2,15 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import express from "express";
+import cors from "cors";
 import contactsRoutes from "./routes/contacts.js";
 
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./swagger.js";
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 

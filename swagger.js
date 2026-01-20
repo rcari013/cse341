@@ -10,6 +10,10 @@ const options = {
     },
     servers: [
       {
+        url: "http://localhost:3000",
+        description: "Local server"
+      },
+      {
         url: "https://cse-341-project1-romel-q15q.onrender.com",
         description: "Production server"
       }
